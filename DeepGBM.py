@@ -10,8 +10,8 @@ import time
 import os
 
 # 全局变量
-NUM_EPOCHS = 50  # 训练轮数
-DATASET_PATH = 'Data/train.csv'  # 数据集路径
+NUM_EPOCHS = 100  # 训练轮数
+DATASET_PATH = 'Data/Tianchi/train.csv'  # 数据集路径
 
 class MetricsCallback(tf.keras.callbacks.Callback):
     def __init__(self, training_data, validation_data):

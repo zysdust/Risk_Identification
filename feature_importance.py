@@ -13,7 +13,7 @@ import os
 os.makedirs('results', exist_ok=True)
 
 # 读取数据
-df = pd.read_csv('Data/train.csv')
+df = pd.read_csv('Data/Tianchi/train.csv')  # Data/train.csv
 X = df.drop('Label', axis=1)
 y = df['Label']
 

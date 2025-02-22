@@ -10,8 +10,8 @@ import os
 from datetime import datetime
 
 # 全局变量
-N_EPOCHS = 3  # 训练轮数
-DATASET_PATH = "Data/train.csv"  # 数据集路径
+N_EPOCHS = 100  # 训练轮数
+DATASET_PATH = "Data/Tianchi/train.csv"  # 数据集路径
 
 class DeepForest:
     def __init__(self, n_estimators=100, n_cascades=2, n_forests=2):

@@ -10,7 +10,7 @@ from datetime import datetime
 
 # 全局配置参数
 N_ITERATIONS = 100  # 训练轮数
-DATA_PATH = 'Data/train.csv'  # 数据集路径
+DATA_PATH = 'Data/Tianchi/train.csv'  # 数据集路径
 
 # 设置随机种子以确保结果可复现
 np.random.seed(42)

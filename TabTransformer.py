@@ -9,8 +9,8 @@ import json
 import pandas as pd
 
 # 全局配置变量
-NUM_EPOCHS = 5  # 训练轮数
-DATASET_PATH = 'Data/train.csv'  # 数据集路径
+NUM_EPOCHS = 100  # 训练轮数
+DATASET_PATH = 'Data/Tianchi/train.csv'  # 数据集路径
 
 class TabTransformer(Model):
     def __init__(self, 

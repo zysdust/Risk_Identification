@@ -11,7 +11,7 @@ import os
 
 # 全局变量设置
 NUM_EPOCHS = 100  # 训练轮数
-DATASET_PATH = 'Data/train.csv'  # 数据集路径
+DATASET_PATH = 'Data/Tianchi/train.csv'  # 数据集路径
 BATCH_SIZE = 32  # 批次大小
 RESULTS_DIR = 'results'  # 结果保存目录
 

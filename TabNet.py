@@ -9,7 +9,7 @@ from data_processor import DataProcessor
 
 # 全局变量
 N_EPOCHS = 100  # 训练轮数
-DATASET_PATH = 'Data/train.csv'  # 数据集路径
+DATASET_PATH = 'Data/Tianchi/train.csv'  # 数据集路径
 BATCH_SIZE = 1024  # 批次大小
 
 class TabNetClassifier:

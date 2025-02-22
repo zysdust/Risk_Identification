@@ -14,7 +14,7 @@ from sklearn.model_selection import train_test_split
 # 全局配置变量
 CONFIG = {
     'NUM_ROUNDS': 100,  # 训练轮数
-    'DATA_DIR': 'Data',  # 数据集目录
+    'DATA_DIR': 'Data/Tianchi',  # 数据集目录
     'DATA_FILE': 'train.csv',  # 数据文件名
     'DATASET_NAME': 'train',  # 数据集名称
     'MAX_SAMPLES': float('inf')  # 使用的最大样本数，默认使用全部

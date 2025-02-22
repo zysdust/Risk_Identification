@@ -10,8 +10,8 @@ import json
 import matplotlib.pyplot as plt
 
 # 全局变量
-NUM_EPOCHS = 50  # 训练轮数
-DATASET_PATH = 'Data/train.csv'  # 数据集路径
+NUM_EPOCHS = 100  # 训练轮数
+DATASET_PATH = 'Data/Tianchi/train.csv'  # 数据集路径
 
 # 定义GTN模型
 class GatedTransformerNetwork(tf.keras.Model):

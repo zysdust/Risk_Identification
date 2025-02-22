@@ -8,8 +8,8 @@ import os
 from data_processor import DataProcessor
 
 # 全局变量
-N_EPOCHS = 150  # 增加训练轮数
-DATASET_PATH = 'Data/train.csv'  # 数据集路径
+N_EPOCHS = 100  # 增加训练轮数
+DATASET_PATH = 'Data/Tianchi/train.csv'  # 数据集路径
 BATCH_SIZE = 512  # 减小批次大小以提高模型稳定性
 EMBEDDING_DIM = 64  # 增加嵌入维度
 

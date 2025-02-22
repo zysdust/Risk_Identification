@@ -9,7 +9,7 @@ import os
 
 # 全局变量
 NUM_EPOCHS = 100  # 训练轮数
-DATASET_PATH = 'Data/train.csv'  # 数据集路径
+DATASET_PATH = 'Data/Tianchi/train.csv'  # 数据集路径
 
 def calculate_specificity(y_true, y_pred):
     # 计算特异度 (True Negative Rate)

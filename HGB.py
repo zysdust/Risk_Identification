@@ -11,7 +11,7 @@ from tqdm import tqdm
 
 # 全局配置参数
 MAX_ITERATIONS = 100  # 训练轮数
-DATASET_PATH = 'Data/train.csv'  # 数据集路径
+DATASET_PATH = 'Data/Tianchi/train.csv'  # 数据集路径
 
 # 设置随机种子，确保结果可复现
 np.random.seed(42)
